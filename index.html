@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+  <title>NextTrip</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+
+  <header class="bg-slate-900 sticky top-0 border-b border-slate-700 z-10">
+    <div class="max-w-7xl mx-auto flex items-center justify-between py-3 px-5">
+
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <img src="Images/logo.png" alt="logo" class="w-12 h-12">
+        <h1 class="text-3xl font-bold text-white">NextTrip</h1>
+        <span class="text-xs px-4 py-1 bg-slate-800 text-amber-400  border border-amber-500  rounded-full">
+          Travel Agency
+        </span>
+
+      </div>
+
+      <!-- Navigation -->
+      <nav class="hidden lg:block">
+        <ul class="flex gap-10 font-medium text-slate-300">
+          <li><a href="#" class="hover:text-amber-400 transition duration-300">Home</a></li>
+          <li><a href="#" class="hover:text-amber-400 transition duration-300">About</a></li>
+          <li><a href="#" class="hover:text-amber-400 transition duration-300">Services</a></li>
+          <li><a href="#" class="hover:text-amber-400 transition duration-300">Packages</a></li>
+          <li><a href="#" class="hover:text-amber-400 transition duration-300">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Button -->
+      <button
+        class="px-5 py-2 bg-amber-400 text-black rounded-full font-medium hover:shadow-[0_0_20px_rgba(245,158,11,0.5)] hover:scale-105 transition-all duration-300">
+      Sign in/register
+    </button>
+
+  </div>
+</header>
+
+<main class=" py-24 bg-gradient-to-b from-slate-950 to-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+
+          <!-- Left -->
+          <div>
+
+            <!-- Title -->
+            <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+              Discover
+              <span class="text-amber-400">Unforgettable Travel</span>
+              Experiences
+            </h2>
+
+            <!-- Description -->
+            <p class="text-slate-400 mb-8 text-lg">
+              Explore the world with carefully designed trips, premium hotels,
+              and unforgettable destinations tailored just for you.
+            </p>
+
+            <!-- Stats -->
+            <div class="flex gap-8 mb-10 text-sm text-slate-300">
+
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-plane text-amber-400"></i>
+                50+ Destinations
+              </span>
+
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-hotel text-amber-400"></i>
+                Flight + Hotel
+              </span>
+
+              <span class="flex items-center gap-2">
+                <i class="fa-regular fa-face-laugh-beam text-amber-400"></i>
+                +500 Happy Clients
+              </span>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+
+              <button
+                class="bg-amber-400 text-black px-7 py-3 rounded-xl hover:shadow-[0_0_20px_rgba(245,158,11,0.5)] hover:scale-105 hover:-translate-y-1 transition-all duration-300">
+                Explore Trips
+              </button>
+
+              <button class="border border-slate-700 px-7 py-3 rounded-xl hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] hover:bg-slate-800 transition hover:scale-105 hover:-translate-y-1 transition-all duration-300">
+                Search Packages
+              </button>
+
+            </div>
+
+          </div>
+
+          <!-- Right -->
+          <div class="relative">
+
+            <!-- Image -->
+            <img src="Images/rome.jpg"
+              alt="travel" class="rounded-3xl shadow-2xl hidden lg:block">
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/30 rounded-3xl"></div>
+
+            <!-- Floating Card -->
+            <div
+              class="absolute -bottom-8 left-8 backdrop-blur-md bg-white/10 border border-white/10 shadow-xl rounded-xl px-6 py-4 flex items-center gap-4">
+
+              <i class="fa-solid fa-users text-amber-400 text-2xl"></i>
+
+              <div>
+                <p class="text-sm text-slate-300">Happy Clients</p>
+                <p class="font-bold text-white text-lg">+500</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        </main>
+
+        <section class="py-24 bg-slate-950 text-white">
+          <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Title -->
+            <div class="text-center mb-14">
+              <h2 class="text-4xl font-bold mb-4">
+                Our <span class="text-amber-400">Services</span>
+              </h2>
+
+              <p class="text-slate-400 max-w-2xl mx-auto">
+                We provide premium travel services to make your journey
+                comfortable, exciting, and unforgettable.
+              </p>
+            </div>
+
+            <!-- cards container -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+              <!-- Card 1 -->
+              <div
+                class="group p-8 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 hover:scale-105 transition duration-300 hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)]">
+
+                <div
+                  class="text-3xl bg-amber-50 w-fit p-3 rounded-2xl mb-4 text-amber-400 group-hover:bg-amber-400 group-hover:text-white transition-all duration-300">
+                  <i class="fa-solid fa-plane"></i>
+                </div>
+
+                <h3 class="text-xl font-bold mb-3">
+                  Flight Booking
+                </h3>
+
+                <p class="text-slate-400 mb-5">
+                  Book flights to top destinations with the best prices and premium airlines.
+                </p>
+
+                <ul class="space-y-2 text-slate-300">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Best flight deals
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Trusted airlines
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    24/7 support
+                  </li>
+                </ul>
+
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="group p-8 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 hover:scale-105 transition duration-300 hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)]">
+
+                <div
+                  class="text-3xl bg-amber-50 w-fit p-3 rounded-2xl mb-4 text-amber-400 group-hover:bg-amber-400 group-hover:text-white transition-all transition-300 ">
+                  <i class="fa-solid fa-hotel"></i>
+                </div>
+
+                <h3 class="text-xl font-bold mb-3">
+                  Hotel Reservation
+                </h3>
+
+                <p class="text-slate-400 mb-5">
+                  Find and book the best hotels around the world with premium comfort.
+                </p>
+
+                <ul class="space-y-2 text-slate-300">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Luxury hotels
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Best locations
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Affordable prices
+                  </li>
+                </ul>
+
+              </div>
+
+              <!-- Card 3 -->
+              <div
+                class="group p-8 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 hover:scale-105 transition duration-300 hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)]">
+
+                <div
+                  class="text-3xl bg-amber-50 w-fit p-3 rounded-2xl mb-4 text-amber-400 group-hover:bg-amber-400 group-hover:text-white transition-all transition-300 ">
+                  <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+
+                <h3 class="text-xl font-bold mb-3">
+                  Travel Packages
+                </h3>
+
+                <p class="text-slate-400 mb-5">
+                  Discover carefully designed travel packages to the most amazing destinations.
+                </p>
+
+                <ul class="space-y-2 text-slate-300">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Guided tours
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Top destinations
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-amber-400"></i>
+                    Best experience
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- stats -->
+        <section class="py-10 bg-slate-950 text-white">
+          <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center">
+
+            <!-- stat -->
+            <div class="border-2 p-10 border-slate-700 rounded-2xl cursor-pointer hover:border-amber-400 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+              <h2 class="text-4xl font-bold text-amber-400 mb-2">+1000</h2>
+              <p class="text-slate-400">Happy Travelers</p>
+            </div>
+
+            <!-- stat -->
+            <div class="border-2 p-10 border-slate-700 rounded-2xl cursor-pointer hover:border-amber-400 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+              <h2 class="text-4xl font-bold text-amber-400 mb-2">+50</h2>
+              <p class="text-slate-400">Destinations</p>
+            </div>
+
+            <!-- stat -->
+            <div class="border-2 p-10 border-slate-700 rounded-2xl cursor-pointer hover:border-amber-400 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+              <h2 class="text-4xl font-bold text-amber-400 mb-2">+120</h2>
+              <p class="text-slate-400">Travel Packages</p>
+            </div>
+
+            <!-- stat -->
+            <div class="border-2 p-10 border-slate-700 rounded-2xl cursor-pointer hover:border-amber-400 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+              <h2 class="text-4xl font-bold text-amber-400 mb-2">24/7</h2>
+              <p class="text-slate-400">Customer Support</p>
+            </div>
+
+          </div>
+        </section>
+
+
+        <section class="py-24 bg-slate-950 text-white">
+          <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold mb-4 text-center text-white">Famous <span class="text-amber-400"> Landmarks </span> </h2>
+            <p class="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
+              Explore the world’s most iconic landmarks with a quick insight about each one.
+            </p>
+
+            <div class="grid gap-8 grid-cols-1 lg:grid-cols-4">
+
+              <!-- Landmark 1 - Mount Fuji -->
+              <div
+                class="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+                <div
+                  class="relative overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 min-w-[280px]">
+                  <img src="Images/mountain-fuji.jpg" alt="Mount Fuji"
+                    class="w-full h-56 object-cover transition-transform duration-300">
+                  <div
+                    class="absolute inset-0 backdrop-blur-md bg-white/10 opacity-0 hover:opacity-100 transition duration-300 flex items-center justify-center gap-4">
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-red-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-heart text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-blue-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-share-nodes text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-green-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-location-dot text-xl"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-8 bg-gradient-to-t from-slate-950/80 to-transparent text-center">
+                  <h2 class="text-xl font-bold mb-2">Mount Fuji</h2>
+                  <p class="text-amber-400 mb-1">Japan</p>
+                  <p class="text-slate-400">An iconic snow-capped mountain, symbol of Japan, popular for climbing and
+                    scenic views.</p>
+                </div>
+              </div>
+
+              <!-- Landmark 2 - Sagrada Familia -->
+              <div
+                class="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+                <div
+                  class="relative overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 min-w-[280px]">
+                  <img src="Images/sagrada-familia.jpg" alt="Sagrada Familia"
+                    class="w-full h-56 object-cover transition-transform duration-300">
+                   <div
+                    class="absolute inset-0 backdrop-blur-md bg-white/10 opacity-0 hover:opacity-100 transition duration-300 flex items-center justify-center gap-4">
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-red-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-heart text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-blue-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-share-nodes text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-green-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-location-dot text-xl"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-8 bg-gradient-to-t from-slate-950/80 to-transparent text-center">
+                  <h2 class="text-xl font-bold mb-2">Sagrada Familia</h2>
+                  <p class="text-amber-400 mb-1">Barcelona, Spain</p>
+                  <p class="text-slate-400">A famous basilica designed by Gaudí, under construction for over a century
+                    with stunning architecture.</p>
+                </div>
+              </div><!-- Landmark 3 - Taj Mahal -->
+              <div
+                class="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700 hover:border-amber-400 shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+                <div
+                  class="relative overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 min-w-[280px]">
+                  <img src="Images/taj-mahal.jpg" alt="Taj Mahal"
+                    class="w-full h-56 object-cover transition-transform duration-300">
+                   <div
+                    class="absolute inset-0 backdrop-blur-md bg-white/10 opacity-0 hover:opacity-100 transition duration-300 flex items-center justify-center gap-4">
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-red-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-heart text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-blue-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-share-nodes text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-green-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-location-dot text-xl"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-8 bg-gradient-to-t from-slate-950/80 to-transparent text-center">
+                  <h2 class="text-xl font-bold mb-2">Taj Mahal</h2>
+                  <p class="text-amber-400 mb-1">Agra, India</p>
+                  <p class="text-slate-400">A magnificent and beutiful white marble mausoleum, a symbol of love and Mughal
+                    architecture.</p>
+                </div>
+              </div>
+
+              <!-- Landmark 4 - Pyramids of Giza -->
+              <div
+                class="rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-slate-700  hover:border-amber-400 shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)] hover:shadow-[0_20px_60px_-10px_rgba(255,255,255,0.2)] transition-all duration-300">
+                <div
+                  class="relative overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 min-w-[280px]">
+                  <img src="Images/pyramids.jpg" alt="Pyramids of Giza"
+                    class="w-full h-56 object-cover transition-transform duration-300">
+                   <div
+                    class="absolute inset-0 backdrop-blur-md bg-white/10 opacity-0 hover:opacity-100 transition duration-300 flex items-center justify-center gap-4">
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-red-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-heart text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-blue-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-share-nodes text-xl"></i>
+                    </div>
+                    <div
+                      class="size-10 rounded-full bg-black/30 backdrop-blur-xs flex justify-center items-center hover:bg-green-500 transition-all duration-300 hover:-translate-y-1.5 cursor-pointer">
+                      <i class="fa-solid fa-location-dot text-xl"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-8 bg-gradient-to-t from-slate-950/80 to-transparent text-center">
+                  <h2 class="text-xl font-bold mb-2">Pyramids of Giza</h2>
+                  <p class="text-amber-400 mb-1">Giza, Egypt</p>
+                  <p class="text-slate-400">Ancient monuments built as tombs for pharaohs, representing Egypt’s
+                    historical legacy.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+       <section class="bg-slate-950 py-20 text-white">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+    <!-- Contact Form -->
+    <div class="bg-slate-900/60 p-8 rounded-2xl shadow-xl border border-slate-700">
+      <h2 class="text-2xl font-bold mb-6 text-amber-400">Contact Us</h2>
+
+      <form class="space-y-5">
+
+        <input 
+          type="text"
+          placeholder="Full Name"
+          class="w-full p-4 rounded-lg bg-slate-800 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-400"
+        >
+
+        <input 
+          type="email"
+          placeholder="Email Address"
+          class="w-full p-4 rounded-lg bg-slate-800 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-400"
+        >
+
+        <textarea 
+          rows="5"
+          placeholder="Your message..."
+          class="w-full p-4 rounded-lg bg-slate-800 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-400"
+        ></textarea>
+
+        <button 
+          class="w-full py-4 rounded-lg bg-amber-500 hover:bg-amber-600 transition font-semibold">
+          Send Message
+        </button>
+
+      </form>
+    </div>
+
+
+    <!-- Contact Info -->
+    <div class="flex flex-col gap-6">
+
+      <h2 class="text-2xl font-bold text-amber-400">Contact Information</h2>
+
+      <!-- Address -->
+      <div class="flex items-center gap-4">
+        <div class="bg-amber-500/20 p-4 rounded-lg">
+          <i class="fa-solid fa-location-dot text-amber-400 text-xl"></i>
+        </div>
+        <div>
+          <p class="text-slate-400 text-sm">Address</p>
+          <p class="font-semibold">Cairo, Egypt</p>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="flex items-center gap-4">
+        <div class="bg-amber-500/20 p-4 rounded-lg">
+          <i class="fa-solid fa-phone text-amber-400 text-xl"></i>
+        </div>
+        <div>
+          <p class="text-slate-400 text-sm">Phone</p>
+          <p class="font-semibold">+20 123 456 7890</p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="flex items-center gap-4">
+        <div class="bg-amber-500/20 p-4 rounded-lg">
+          <i class="fa-solid fa-envelope text-amber-400 text-xl"></i>
+        </div>
+        <div>
+          <p class="text-slate-400 text-sm">Email</p>
+          <p class="font-semibold">travel@exploreworld.com</p>
+        </div>
+      </div>
+
+      <!-- Travel Card -->
+      <div class="mt-6 bg-gradient-to-r from-amber-500 to-amber-400 rounded-2xl p-10 text-center cursor-pointer shadow-xl hover:scale-105 transition">
+        <i class="fa-solid fa-plane-departure text-3xl mb-4"></i>
+        <h3 class="text-xl font-bold">Start Your Journey</h3>
+        <p class="text-sm opacity-90 mt-2">
+          Discover amazing destinations and unforgettable experiences around the world.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<hr>
+<footer class="bg-slate-950 text-white p-5 ">
+  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-4">
+    <p class="text-center md:text-left">&copy; 2026 All Rights Reserved By NextTrip</p>
+
+    <div class="flex gap-5 text-2xl">
+      <a href="#" class="hover:text-blue-500 transition-colors duration-300">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="#" class="hover:text-blue-600 transition-colors duration-300">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="#" class="hover:text-blue-400 transition-colors duration-300">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" class="hover:text-pink-500 transition-colors duration-300">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
