@@ -27,8 +27,8 @@ NextTrip helps travelers discover destinations, explore famous landmarks, and le
       <td align="center"><strong>Services Section</strong></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/filopater23106-cloud/NextTrip-Tourism-Website/blob/913f441e42b4180a0d280073e5750d232a8a9a13/Website%20Screenshoots/Landmarks.png" alt="Landmarks Gallery" width="400"/></td>
       <td><img src="https://github.com/filopater23106-cloud/NextTrip-Tourism-Website/blob/913f441e42b4180a0d280073e5750d232a8a9a13/Website%20Screenshoots/Stat.png" alt="Statistics Section" width="400"/></td>
+       <td><img src="https://github.com/filopater23106-cloud/NextTrip-Tourism-Website/blob/913f441e42b4180a0d280073e5750d232a8a9a13/Website%20Screenshoots/Landmarks.png" alt="Landmarks Gallery" width="400"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Statistics Section</strong></td>
@@ -258,4 +258,3 @@ If you like this project, please consider giving it a star on GitHub!
 Made with ❤️ by Filopater Shehata
 
 </div>
-```
